@@ -11,7 +11,8 @@ export default function Home() {
     <ChakraWrapper>
       <Box height={'100vh'} >
         <Top />
-        <Box position={'absolute'} top={{base:250,md:150}} width={'100%'} >
+        {/* <Box marginTop={{ base: -100, sm: -180 }} > */}
+        <Box position={'absolute'} top={{base:250,sm:190}} width={'100%'} >
 
           <Center />
           <Bottom />
